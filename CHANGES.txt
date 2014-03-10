@@ -4,6 +4,11 @@ Changelog
 1.0 (unreleased)
 ------------------
 
+- Adjust all themes to only apply theming rules when ``visual-portal-wrapper``
+  is present.  Previously, xi:includes were causing other non-content
+  Plone resources to be themed (such as TinyMCE HTML pages, which broke
+  the visual editor).
+  [davidjb]
 - Modify all CSS and JS resources to use Plone's ``base`` variable, supplied
   by plone.app.theming. Without this, relative URLs result in the same resources
   being loaded on different URLs for every page request.
