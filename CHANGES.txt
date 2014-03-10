@@ -4,6 +4,8 @@ Changelog
 1.0 (unreleased)
 ------------------
 
+- Add some basic theming for AJAX-included HTML for Plone.
+  [davidjb]
 - Adjust all themes to only apply theming rules when ``visual-portal-wrapper``
   is present.  Previously, xi:includes were causing other non-content
   Plone resources to be themed (such as TinyMCE HTML pages, which broke
