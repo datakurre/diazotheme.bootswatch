@@ -31,9 +31,10 @@
   <plone:static directory="superhero-narrow" name="superhero-narrow" type="theme" />
   <plone:static directory="united" name="united" type="theme" />
   <plone:static directory="united-narrow" name="united-narrow" type="theme" />
-  
 
-  <!-- Reusable resources separated from the themes 
+  <!-- Reusable resources separated from the themes -->
+  <plone:static directory="bootswatch" name="bootswatch" type="theme" />
+  <!--
   <plone:static directory="plone" name="plone" type="resource" />
   <plone:static directory="bootstrap" name="bootstrap" type="framework" />
   -->

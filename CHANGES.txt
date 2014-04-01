@@ -4,6 +4,11 @@ Changelog
 1.0 (unreleased)
 ------------------
 
+- Add font-awesome as per the original Bootswatch themes.  This fixes
+  icon display issues for active navigation classes.
+  [davidjb]
+- Refactor CSS into separate file to remove duplication across themes.
+  [davidjb]
 - Add some basic theming for AJAX-included HTML for Plone.
   [davidjb]
 - Adjust all themes to only apply theming rules when ``visual-portal-wrapper``
