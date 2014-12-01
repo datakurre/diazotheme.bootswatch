@@ -33,7 +33,7 @@
 
     <!-- Body rules
          ================================================================== -->
-    <xi:include href="++theme++plone/rules/logo/white-56.xml"/>
+    <!-- <xi:include href="++theme++plone/rules/logo/white-56.xml"/>-->
     
     <xi:include href="++theme++bootstrap-framework/rules/header.xml"/>
     <xi:include href="++theme++bootstrap-framework/rules/grid.xml"/>
