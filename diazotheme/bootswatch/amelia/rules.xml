@@ -49,6 +49,7 @@
     <!-- Place the content 
          .................................................................. -->
     <drop css:theme-children="body"/>
+    
     <before css:theme-children="body" css:content-children="body"/>
     <after css:theme-children="body">
         <script src="{$base}/++theme++bootstrap-framework/js/bootstrap.min.js"></script>
