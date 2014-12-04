@@ -19,6 +19,7 @@
        plone main_template. This is necessary for functional edit popups in 
        Tiny, for example. -->
   <rules css:if-content="#visual-portal-wrapper">
+    <!-- comment -->
 
     <theme href="++theme++bootstrap-framework/examples/starter-template.html" />
 
