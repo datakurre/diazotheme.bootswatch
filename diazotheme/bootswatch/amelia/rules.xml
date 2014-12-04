@@ -20,7 +20,6 @@
        Tiny, for example. -->
   <rules css:if-content="#visual-portal-wrapper">
     <theme href="++theme++bootstrap-framework/examples/starter-template.html" />
-    <!-- comment -->
     <!-- Head rules
          ================================================================== -->
     <xi:include href="++theme++bootswatch/rules/head-base.xml"/>
